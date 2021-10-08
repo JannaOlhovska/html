@@ -1,3 +1,5 @@
-subscribe-title{
+.subscribe-title{
     color: aquamarine;
-}
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+   }
