@@ -1,7 +1,3 @@
-.subscribe{
-    /* position: relative; */
-    /* background-color:rgb(212, 191, 173); */
-}
 .subscribe h1{
     color:white;
     font-family: "Cormorant Garamond", serif;
@@ -59,10 +55,10 @@
 }
 .background{
     background-image: url(../img/black-top.png);
-    background-size: cover;
     background-position: center;
-    padding: 90px;
-
+    padding: 70px;
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 
