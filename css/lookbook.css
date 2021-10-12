@@ -2,7 +2,7 @@
     /* position: relative; */
     /* background-color:rgb(212, 191, 173); */
 }
-h1{
+.subscribe h1{
     color:white;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
@@ -52,6 +52,7 @@ h1{
     width: 357px;
     height: 326px;
     object-fit: cover;
+    display: flex;
 }
 .figures{
     font-weight: bolder;
@@ -61,7 +62,6 @@ h1{
     background-image: url(../img/black-top.png);
     background-size: cover;
     background-position: center;
-    display: grid;
     padding: 90px;
 
 }
