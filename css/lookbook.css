@@ -9,6 +9,7 @@
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
     position: relative;
+    text-align: center;
 }  
 .subscribe p{
     font-family:"Fira Sans", sans-serif;
@@ -53,6 +54,12 @@
     font-weight: bolder;
     font-style: italic;
 }
+.lookbook p {
+    color: black;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 .background{
     background-image: url(../img/black-top.png);
     background-position: center;
@@ -60,5 +67,6 @@
     background-attachment: fixed;
     background-size: 100%;
 }
-
+@media (min-width: 750px) {
+}
 
