@@ -52,7 +52,6 @@
     width: 357px;
     height: 326px;
     object-fit: cover;
-    display: flex;
 }
 .figures{
     font-weight: bolder;
@@ -65,3 +64,5 @@
     padding: 90px;
 
 }
+
+
