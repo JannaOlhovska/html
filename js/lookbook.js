@@ -8,8 +8,8 @@
         '<img src="img/girl-sitting-on-bed.png" alt="girl-sitting-on-bed">',
     ];
     let currentlookbookslide = 0;
-    function showCurrentlookbookslide () {
-        const lookbookslideContainer = document.querySelector('.lookbook-carousel .lookbook-slide');
+    function showCurrentlookbookslide() {
+        const lookbookslideContainer = document.querySelector('.lookbook-carousel .lookbook-slides');
         lookbookslideContainer.innerHTML = lookbookslides[currentlookbookslide];
     }
     function nextLookbookslide (){
@@ -17,5 +17,8 @@
         if (currentlookbookslide >= lookbookslides.length) currentlookbookslide = 0;
         showCurrentlookbookslide();
     }
-    setInterval (nextLookbookslide, 2000);
+    
+  document.querySelector('.lookbook-carousel .lookbook-slides').addEventListener('click', nextLookbookslide);
+/*setInterval (nextLookbookslide, 1500);*/
+   showCurrentlookbookslide();
 } )();
