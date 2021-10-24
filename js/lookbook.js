@@ -1,15 +1,21 @@
 (function() {
-    const lookbookImages = [
-        '<img src="img/lookbook/beige-detail.png" alt="beige-detail">',
-        '<img src="img/lookbook/beige-top.png" alt="beige-top">',
-        '<img src="img/lookbook/black-top.png" alt="black-top">',
-        '<img src="img/lookbook/girl-in-black-bra.png" alt="girl-in-black-bra">',
-        '<img src="img/lookbook/girl-in-curtains.png" alt="girl-in-curtains">',
-        '<img src="img/lookbook/girl-sitting-on-bed.png" alt="girl-sitting-on-bed">',
+    const lookbookslides = [
+        '<img src="img/beige-detail.png" alt="beige-detail">',
+        '<img src="img/beige-top.png" alt="beige-top">',
+        '<img src="img/black-top.png" alt="black-top">',
+        '<img src="img/girl-in-black-bra.png" alt="girl-in-black-bra">',
+        '<img src="img/girl-in-curtains.png" alt="girl-in-curtains">',
+        '<img src="img/girl-sitting-on-bed.png" alt="girl-sitting-on-bed">',
     ];
-    let lookbookImage = 0;
-    function showLookbookImage () {
-        const lookbookImagesContainer = document.querySelector('.lookbook-carousel .slide');
-        lookbookImagesContainer.innerHTML = lookbookImages[lookbookImage];
+    let currentlookbookslide = 0;
+    function showCurrentlookbookslide () {
+        const lookbookslideContainer = document.querySelector('.lookbook-carousel .lookbook-slide');
+        lookbookslideContainer.innerHTML = lookbookslides[currentlookbookslide];
     }
-} ()
+    function nextLookbookslide (){
+        currentlookbookslide++;
+        if (currentlookbookslide >= lookbookslides.length) currentlookbookslide = 0;
+        showCurrentlookbookslide();
+    }
+    setInterval (nextLookbookslide, 2000);
+} )();

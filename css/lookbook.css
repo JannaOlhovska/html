@@ -50,6 +50,8 @@
     width: 357px;
     height: 326px;
     object-fit: cover;
+    display: flex;
+    
 }
 .figures{
     font-weight: bolder;
@@ -66,7 +68,7 @@
     background-position: center;
     padding: 70px;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: auto;
 }
 .button-carusel {
     width: 357px;
