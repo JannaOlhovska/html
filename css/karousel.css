@@ -1,15 +1,16 @@
-.row > .column {
-    padding: 0 8px;
+.row .column {
+   padding: 0 8px;
+   
   }
   
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
   }
   
   /* Create four equal columns that floats next to eachother */
-  .column {
+.column {
     float: left;
     width: 25%;
   }
@@ -22,8 +23,8 @@
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 60%;
     overflow: auto;
     background-color: black;
   }
@@ -35,7 +36,7 @@
     margin: auto;
     padding: 0;
     width: 90%;
-    max-width: 1200px;
+    max-width: 600px;
   }
   
   /* The Close Button */
@@ -57,8 +58,6 @@
   
   /* Hide the slides by default */
   .mySlides {
-    width: 450px;
-    height: 400px;
     display: none;
   }
   
@@ -124,4 +123,12 @@
   
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  img {
+    width: 357px;
+    height: 326px;
+    object-fit: cover;
+    display: flex;
+    margin: auto;
+    cursor: pointer;
   }
