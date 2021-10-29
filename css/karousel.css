@@ -23,8 +23,8 @@
     padding-top: 100px;
     left: 0;
     top: 0;
-    width: 75%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     overflow: auto;
     background-color: black;
   }
@@ -36,6 +36,7 @@
     margin: auto;
     padding: 0;
     width: 90%;
+    height: 50%;
     max-width: 600px;
   }
   
@@ -91,15 +92,7 @@
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
+   
   /* Caption text */
   .caption-container {
     text-align: center;
@@ -124,7 +117,7 @@
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
-  img {
+  .row img, .mySlides img{
     width: 357px;
     height: 326px;
     object-fit: cover;
