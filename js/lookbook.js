@@ -1,4 +1,4 @@
-(function() {
+/*(function() {
     const lookbookslides = [
         '<img src="img/beige-detail.png" alt="beige-detail">',
         '<img src="img/beige-top.png" alt="beige-top">',
@@ -20,5 +20,5 @@
     
   document.querySelector('.lookbook-carousel .lookbook-slides').addEventListener('click', nextLookbookslide);
 /*setInterval (nextLookbookslide, 1500);*/
-   showCurrentlookbookslide();
-} )();
+ /*  showCurrentlookbookslide();
+} )(); */
