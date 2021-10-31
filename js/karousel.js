@@ -1,12 +1,12 @@
 /*<script>*/
-// Open the Modal
-function openModal() {
-  document.getElementById("myModal").style.display = "block";
+// Open the Lightbox
+function openLightbox() {
+  document.getElementById("myLightbox").style.display = "block";
 }
 
-// Close the Modal
-function closeModal() {
-  document.getElementById("myModal").style.display = "none";
+// Close the Lightbox
+function closeLightbox() {
+  document.getElementById("myLightbox").style.display = "none";
 }
 
 var slideIndex = 1;

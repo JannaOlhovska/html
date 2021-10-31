@@ -15,8 +15,8 @@
     width: 25%;
   }
   
-  /* The Modal (background) */
-  .modal {
+  /* The Lightbox (background) */
+  .lightbox {
     display: none;
     position: fixed;
     z-index: 1;
@@ -29,8 +29,8 @@
     background-color: black;
   }
   
-  /* Modal Content */
-  .modal-content {
+  /* Lightbox Content */
+  .lightbox-content {
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -41,7 +41,7 @@
   }
   
   /* The Close Button */
-  .close {
+  .closeButton {
     color: white;
     position: absolute;
     top: 10px;
@@ -50,8 +50,8 @@
     font-weight: bold;
   }
   
-  .close:hover,
-  .close:focus {
+  .closeButton:hover,
+  .closeButton:focus {
     color: #999;
     text-decoration: none;
     cursor: pointer;
@@ -63,8 +63,8 @@
   }
   
   /* Next & previous buttons */
-  .prev,
-  .next {
+  .prevButton,
+  .nextButton {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -81,14 +81,14 @@
   }
   
   /* Position the "next button" to the right */
-  .next {
+  .nextButton {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
   /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
+  .prevButton:hover,
+  .nextButton:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   

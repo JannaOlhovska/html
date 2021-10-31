@@ -69,10 +69,10 @@
 }
 .background{
     background-image: url(../img/black-top.png);
-    background-position: center;
+    background-position: cover;
     padding: 70px;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: 100%;
 }
 .button-carusel {
     width: 357px;
@@ -90,14 +90,10 @@
 
 
 @media (min-width: 750px) {
-    .lookbook p, .lookbook h2, .subscribe h1, .subscribe p{
+    .lookbook p, .lookbook h2, .subscribe h1, .subscribe p {
         font-family: inherit;
     }
     .subscribe button, .subscribe input {
         width: 308px;
     }
-    
-  
- 
-
-}
+ }
